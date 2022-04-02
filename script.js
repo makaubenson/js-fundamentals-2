@@ -62,7 +62,7 @@ const yearsUntilRetirement = (birthYear, firstName)=> {
 // const benYearsToRetirement = yearsUntilRetirement(2000, "Benson");
 console.log(yearsUntilRetirement(2000, "Benson"));
 console.log(yearsUntilRetirement(1991, "Bob"));
-*/
+
 
 //Functions Calling Other Functions
 function cutFruitPieces(fruit){
@@ -77,3 +77,21 @@ function fruitProcessor(apples, oranges){
     return juice;
 }
 console.log(fruitProcessor(2, 3));
+*/
+const calcAge = function(yearofBirth){
+    return 2037- yearofBirth;
+}
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = calcAge(birthYear);
+    const retirement = 65 - age;
+    if(retirement > 0){
+        console.log(`${firstName} retires in ${retirement} years`);
+        return retirement;// return function immediately exits after execution. Any code below that is ignored
+    }else{
+        console.log(`${firstName} has already retired.`);
+        return -1;
+    }
+    
+}
+console.log(yearsUntilRetirement(1991, "Benson"));
+console.log(yearsUntilRetirement(1950, "Richy"));
