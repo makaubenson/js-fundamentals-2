@@ -13,5 +13,15 @@
 -  `function functionName(parameters){
     `code to be executed`
    }`
-- function declaration can be called earlier before they are declared. Function expression cannot be called before initialization.
+- function declaration can be called earlier before they are declared.
+### Function Expression
+-  `const calcAge2 = function(birthYear){// anonymous function
+    return 2037- birthYear;
+    }// calcAge2 will be the function`
+- Function expression cannot be called before initialization.
+### Arrow Functions
+- `const calcAge3 = birthYear => 2037- birthYear;
+   const age3 = calcAge3(1991);
+   console.log(age3);`
+   - first  `birthYear` is a parameter.
     
