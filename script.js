@@ -1,4 +1,5 @@
 'use strict';//activating strict mode
+/*
 // let hasDriversLicense = false;
 // const passTest = true;
 // if(passTest) hasDriversLicense = true;
@@ -13,8 +14,8 @@ function logger(){
     //Function Body (code executed when the function is called)
     console.log('My name is benson');
 }
-
 logger();//Invoking/ Running/ Calling Function
+
 function fruitProcessor(apples, oranges){
     // console.log(apples, oranges);
     const juice = `Juice with ${apples} apples and ${oranges} oranges`;
@@ -27,3 +28,24 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2,4);
 console.log(appleOrangeJuice);
+*/
+// function calcAge1(birthYear){
+// const age = 2037- birthYear;
+// return age;
+// }
+
+
+const age1 = calcAge1(1991);//calling function before its declared
+//function declaration
+function calcAge1(birthYear){
+    return 2037- birthYear;
+    }
+
+
+//function expression
+const calcAge2 = function(birthYear){// anonymous function
+    return 2037- birthYear;
+    }// calcAge2 will be the function
+
+const age2 = calcAge2(1991);
+console.log(age1,age2);

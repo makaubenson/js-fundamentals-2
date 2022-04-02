@@ -9,3 +9,9 @@
 - Its a piece of code that can be reused over and over again. 
 - Parameters are like variables in a function. They are defined once the function is called. 
 - They represent input data of the function. 
+### Function Declaration
+-  `function functionName(parameters){
+    `code to be executed`
+   }`
+- function declaration can be called earlier before they are declared. Function expression cannot be called before initialization.
+    
