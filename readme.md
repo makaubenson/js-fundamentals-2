@@ -29,4 +29,9 @@
    const age3 = calcAge3(1991);
    console.log(age3);`
    - first  `birthYear` is a parameter.
+
+### Arrays
+- Arrays can be mutable despite being declared with `const`
+- We can add arrays inside other arrays
+- We can add variable names inside arrays as if they were an array value.
     

@@ -113,3 +113,7 @@ console.log(friends[friends.length-1]);//getting last element in the array
 
 friends[2] = 'James';
 console.log(friends);
+
+const firstName = 'Benson';
+const benson = [firstName, 'Makau', 2037-1991, 'teaching', friends];
+console.log(benson);
