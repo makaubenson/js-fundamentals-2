@@ -110,3 +110,6 @@ console.log(friends[2]);
 
 console.log(friends.length);
 console.log(friends[friends.length-1]);//getting last element in the array
+
+friends[2] = 'James';
+console.log(friends);
