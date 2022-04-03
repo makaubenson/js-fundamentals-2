@@ -105,5 +105,7 @@ const year = new Array(1991,1984,2008,2020);
 
 //getting Values from an array
 console.log(friends[0]);
+console.log(friends[2]);
 // console.log(year[0]);
 
+console.log(friends.length);
