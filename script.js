@@ -117,3 +117,18 @@ console.log(friends);
 const firstName = 'Benson';
 const benson = [firstName, 'Makau', 2037-1991, 'teaching', friends];
 console.log(benson);
+console.log(benson.length);
+
+//Exercise
+function calcAge(birthYear){
+const age = 2037- birthYear;
+return age;
+}
+
+const years = [1990,1967,2002,2010,2018];
+// WE cant Do this
+//console.log(calcAge(years));// solution : NaN
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
