@@ -350,4 +350,4 @@ if(mark.BMI > john.BMI){
 // The For Loop
 for(let rep = 1; rep <=10; rep++){
     console.log(`repetition ${rep}`);
-}
+} 
