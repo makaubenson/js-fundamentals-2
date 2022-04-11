@@ -378,7 +378,7 @@ const benson = [
      ages.push(2037- years[i]);
  }
  console.log(years, ages);
-*/
+
  //Continue and break
  //Continue- used to exit current iteration and contrinue to the next one
   const types = [];
@@ -399,7 +399,27 @@ console.log(benson[i], typeof benson[i]);
 console.log("----BREAK WITH NUMBER----");
 for(let i = 0; i < benson.length ;i++){
 if(typeof benson[i] === 'number')break;
-/* This loop goes until it finds a value of the array which is a number, 
-afterwards it stops looping through the array and prints all the values before the number was found.*/
+// This loop goes until it finds a value of the array which is a number, 
+//afterwards it stops looping through the array and prints all the values before the number was found.
 console.log(benson[i], typeof benson[i]);
+}
+*/
+
+//Backward looping through arrays
+const benson = [
+    'benson',
+    'makau',
+    2037-1991,
+    'teacher',
+    ['Michael','Peter','Steven']
+];
+for(let i = benson.length-1; i >= 0; i-- ){
+    // console.log(i, benson[i]);
+}
+for(let exercise = 1; exercise < 4; exercise++){
+    console.log(`------Starting Exercise ${exercise}`);
+
+for( let rep = 1; rep < 6; rep++){
+    console.log(`Lifting weight repetition ${rep} 🏋️‍♀️`);
+}
 }
