@@ -1,4 +1,4 @@
-'use strict';//activating strict mode
+'use strict'; //activating strict mode
 /*
 // let hasDriversLicense = false;
 // const passTest = true;
@@ -444,7 +444,7 @@ while (dice !== 6) {
         //console.log("Loop is about to end!!!");
     }
 }
-*/
+
 //Coding Challenge
 //Method 1
 const bills = [22,295,176,440,37,105,10,1100,86,52];
@@ -510,4 +510,7 @@ console.log(`These are totals: ${totals}`);
 //   console.log(`Average of totals is: ${calcAverage(totals)}`);
 //   console.log(`Average of tips is: ${calcAverage(tips)}`);
 
+*/
 
+// let ben = 'Makau';
+const ben = (birthYear) => 2030 - birthYear;
