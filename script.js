@@ -435,12 +435,46 @@ while (rep <= 10) {
 }
 
 let dice = Math.trunc(Math.random() * 6) + 1;
-console.log(dice);
+//console.log(dice);
 
 while (dice !== 6) {
-    console.log(`You rolled a ${dice}`);
+  //  console.log(`You rolled a ${dice}`);
     dice = Math.trunc(Math.random() * 6) + 1;
     if(dice === 6){
-        console.log("Loop is about to end!!!");
+        //console.log("Loop is about to end!!!");
     }
 }
+
+//Coding Challenge
+const bills = [22,295,176,440,37,105,10,1100,86,52];
+const tips = [];
+const totals = [];
+
+function calcTip(bill){
+    let tip = 0;
+if(bill<=50 && bill <= 300){
+    tip = (15/100) * bill;
+}else{
+    tip = (20/100)*bill;
+}
+return tip;
+}
+
+for( let i = 0; i <= bills.length- 1; i ++){
+tips.push(calcTip(bills[i]));
+totals.push(bills[i] + tips[i]);
+}
+console.log(`These are tips: ${tips}`);
+console.log(`These are totals: ${totals}`);
+
+
+//find average for array totals[]
+let sum = 0;
+for(let i = 0; i <= totals.length - 1; i++){
+sum = sum + totals[i];
+}
+function calcAverage(){
+    return sum/ totals.length;
+}
+console.log(`The sum is: ${sum}`);
+console.log(`The average is: ${calcAverage()}`);
