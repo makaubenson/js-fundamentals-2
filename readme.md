@@ -44,4 +44,5 @@
 - Returning the index of an array element
 - `const indexOfSteve = friends.indexOf('Stephen');`
 - `console.log(indexOfSteve);`
+- `console.log(friends.indexOf('Bob'));// For elements that do not exist in the array, js returns -1`
     
