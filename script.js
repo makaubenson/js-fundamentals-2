@@ -344,10 +344,22 @@ if(mark.BMI > john.BMI){
 }else{
     console.log(`${john.fullName}'s BMI (${john.BMI}) is greater than ${mark.fullName}'s BMI (${mark.BMI}).`);
 }
-*/
+
 
 
 // The For Loop
-for(let rep = 1; rep <=10; rep++){
-    console.log(`repetition ${rep}`);
-} 
+// for(let rep = 1; rep <=10; rep++){
+//     console.log(`repetition ${rep}`);
+// } 
+*/
+//Looping Arrays, Breaking and Continuing
+const benson = [
+    'Benson',
+   'Makau',
+     2037 - 1991,
+    'teacher',
+   ['Michael','Peter','Stephen']
+];
+ for(let i = 0; i < benson.length ;i++){
+     console.log(benson[i]);
+ }
