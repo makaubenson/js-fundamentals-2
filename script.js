@@ -252,3 +252,7 @@ console.log(benson['lastName']); //Getting the property `lastName`
 const nameKey = 'Name';
 console.log(benson['first' + nameKey]);
 console.log(benson['last' + nameKey]);
+
+const interestedIn = prompt("What do you want to know about Benson? Choose between firstName, lastName, age,job and friends");
+// console.log(interestedIn);
+console.log(`The result is: ${benson[interestedIn]}`);
