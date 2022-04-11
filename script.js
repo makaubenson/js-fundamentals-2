@@ -314,7 +314,7 @@ console.log(benson);
 // console.log(benson['calcAge'](1991));
 
 console.log(benson.getSummary());
-*/
+
 const mark = {
 fullName:"Mark Miller",
 mass:78,
@@ -343,4 +343,11 @@ if(mark.BMI > john.BMI){
     console.log(`${mark.fullName}'s BMI (${mark.BMI}) is greater than ${john.fullName}'s BMI (${john.BMI}).`);
 }else{
     console.log(`${john.fullName}'s BMI (${john.BMI}) is greater than ${mark.fullName}'s BMI (${mark.BMI}).`);
+}
+*/
+
+
+// The For Loop
+for(let rep = 1; rep <=10; rep++){
+    console.log(`repetition ${rep}`);
 }

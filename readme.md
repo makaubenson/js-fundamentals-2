@@ -90,3 +90,9 @@
 
 - Any function attached to an object is called a Method. 
 - Functions are not declared inside object, instead expresions are used.
+
+### For Loop
+- Keeps running while the condition is true.
+- `for(let rep = 1; rep <=10; rep++){
+    console.log(`repetition ${rep}`);
+}`
