@@ -236,7 +236,12 @@ const benson = {
     job: 'teacher',
     friends: ['Michael','Peter','Stephen']
 };
+console.log(benson);
 //The Object above contains 5 keys with each key having a value.
 // A key is also called property.
 // This way of creating objects using curly brackets ({}) is known as the  object literal syntax
 // We use objects to group variables that are similaror related
+
+// Getting Properties from Objects
+// Method 1: Using Dot Notation
+console.log(benson.lastName);// Getting the property `lastName`

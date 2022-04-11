@@ -51,4 +51,19 @@
 - includes uses strict equality to perform its check
 - If an element in an array is a number, the checking for the same number but as string would return false. 
 - It does not do type coercion
+
+## Objects
+### Creating an object
+- `const benson = {
+    firstName: 'Benson',
+    lastName:'Makau',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael','Peter','Stephen']
+};`
+- `console.log(benson);` - Logging the object to console.
+
+### Getting Properties from Objects
+#### Method 1: Using Dot Notation
+- `console.log(benson.lastName);`- Getting the property `lastName`
     
