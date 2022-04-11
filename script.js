@@ -264,3 +264,5 @@ if(benson[interestedIn]){
 benson.location ='kenya';
 benson['github'] = 'makaubenson';
 console.log(benson);
+
+console.log(`Benson has ${benson.friends.length} friends and his best friend is ${benson.friends[0]}`);
