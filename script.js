@@ -266,7 +266,7 @@ benson['github'] = 'makaubenson';
 console.log(benson);
 
 console.log(`${benson.firstName} has ${benson.friends.length} friends and his best friend is ${benson.friends[0]}`);
-*/
+
 //Object Methods
 const benson = {
     firstName: 'Benson',
@@ -285,7 +285,25 @@ const benson = {
     calcAge: function(birthYear){
        this.age = 2037- this.birthYear; // Creating new property in benson object
         return this.age;
-    }
+    },
+    // Challenge: CReate a function that summaries Benson's object information
+    //Method !
+//     getSummary: function(){
+//     let statement ="";
+//     if(this.hasDriversLicense){
+//         statement = ", and has a driver's license.";
+//     }else{
+//         statement =", and does not have a driver's license.";
+//     }
+//     const summary = `${this.firstName} is a ${this.calcAge()} year old ${this.job} ${statement}`;
+//     return summary;
+// }
+//Method 2
+getSummary: function(){
+  
+    const summary = `${this.firstName} is a ${this.calcAge()} year old ${this.job} and has ${this.hasDriversLicense ? 'a' : 'no'} driver's license`;
+    return summary;
+}
 };
 // console.log(benson);
 // Any function attached to an object is called a Method. 
@@ -294,3 +312,6 @@ console.log(benson.calcAge());
 console.log(benson.age);
 console.log(benson);
 // console.log(benson['calcAge'](1991));
+
+console.log(benson.getSummary());
+*/
