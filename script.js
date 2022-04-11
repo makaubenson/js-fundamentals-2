@@ -403,7 +403,7 @@ if(typeof benson[i] === 'number')break;
 //afterwards it stops looping through the array and prints all the values before the number was found.
 console.log(benson[i], typeof benson[i]);
 }
-*/
+
 
 //Backward looping through arrays
 const benson = [
@@ -422,4 +422,14 @@ for(let exercise = 1; exercise < 4; exercise++){
 for( let rep = 1; rep < 6; rep++){
     console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️‍♀️`);
 }
+}
+*/
+//While Loop
+for( let rep = 1; rep < 10; rep++){
+    console.log(` Lifting weight repetition ${rep} 🏋️‍♀️`);
+}
+let rep = 1;
+while (rep < 10) {
+    console.log(` Lifting weight repetition ${rep} 🤩`);
+    rep ++;
 }
