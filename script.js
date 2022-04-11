@@ -315,3 +315,27 @@ console.log(benson);
 
 console.log(benson.getSummary());
 */
+const mark = {
+fullName:"Mark Miller",
+mass:78,
+height:1.69,
+calcBMI: function(){
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;
+    }
+};
+const john = {
+fullName:"John Smith",
+mass:92,
+height:1.95,
+calcBMI: function(){
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;
+    }
+};
+
+
+
+console.log(`John's BMI is: ${john.calcBMI()}`);
+console.log(`Mark's BMI is: ${mark.calcBMI()}`);
+console.log(`${mark.fullName}'s BMI (${mark.calcBMI()}) is greater than ${john.fullName}'s BMI (${john.calcBMI()})`);
