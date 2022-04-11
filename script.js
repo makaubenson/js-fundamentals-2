@@ -334,8 +334,13 @@ calcBMI: function(){
     }
 };
 
-
-
+mark.calcBMI();
+john.calcBMI();
+console.log(mark.BMI , john.BMI);// For this to work, the method calcBMI() had to be called
 console.log(`John's BMI is: ${john.calcBMI()}`);
 console.log(`Mark's BMI is: ${mark.calcBMI()}`);
-console.log(`${mark.fullName}'s BMI (${mark.calcBMI()}) is greater than ${john.fullName}'s BMI (${john.calcBMI()})`);
+if(mark.BMI > john.BMI){
+    console.log(`${mark.fullName}'s BMI (${mark.BMI}) is greater than ${john.fullName}'s BMI (${john.BMI}).`);
+}else{
+    console.log(`${john.fullName}'s BMI (${john.BMI}) is greater than ${mark.fullName}'s BMI (${mark.BMI}).`);
+}
