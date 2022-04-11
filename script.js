@@ -353,13 +353,21 @@ if(mark.BMI > john.BMI){
 // } 
 */
 //Looping Arrays, Breaking and Continuing
+const types = [];
 const benson = [
     'Benson',
    'Makau',
      2037 - 1991,
     'teacher',
-   ['Michael','Peter','Stephen']
+   ['Michael','Peter','Stephen'],
+   true
 ];
  for(let i = 0; i < benson.length ;i++){
-     console.log(benson[i]);
+     console.log(benson[i] , typeof benson[i]);
+
+     //Filling out types array: Method 1
+    //  types[i] = typeof benson[i];
+    //Method 2
+    types.push( typeof benson[i]);
  }
+ console.log(types);
