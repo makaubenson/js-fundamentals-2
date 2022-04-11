@@ -166,3 +166,15 @@ console.log(friends);
 const indexOfSteve = friends.indexOf('Stephen');
 console.log(indexOfSteve);
 console.log(friends.indexOf('Bob'));// For elements that do not exist in the array, js returns -1
+
+//includes() function
+console.log(friends.includes('Bob'));
+console.log(friends.includes('Stephen'));
+// includes() method checks whether an element exits in an array and return true or false
+
+// includes() function uses strict equality to check for a match on an element
+// Assume we push a number 23
+friends.push(23);
+//then check for the '23' string, it would get false
+console.log(friends.includes('23'));
+//
