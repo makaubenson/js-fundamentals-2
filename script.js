@@ -511,6 +511,3 @@ console.log(`These are totals: ${totals}`);
 //   console.log(`Average of tips is: ${calcAverage(tips)}`);
 
 */
-
-// let ben = 'Makau';
-const ben = (birthYear) => 2030 - birthYear;
