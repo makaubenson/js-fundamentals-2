@@ -351,7 +351,7 @@ if(mark.BMI > john.BMI){
 // for(let rep = 1; rep <=10; rep++){
 //     console.log(`repetition ${rep}`);
 // } 
-*/
+
 //Looping Arrays, Breaking and Continuing
 const types = [];
 const benson = [
@@ -377,5 +377,23 @@ const benson = [
  for(let i = 0; i < years.length; i++){
      ages.push(2037- years[i]);
  }
-
  console.log(years, ages);
+*/
+ //Continue and break
+ //Continue- used to exit current iteration and contrinue to the next one
+ //break- used to completely terminate the whole loop
+
+ const types = [];
+ const benson = [
+     'Benson',
+    'Makau',
+      2037 - 1991,
+     'teacher',
+    ['Michael','Peter','Stephen'],
+    true
+ ];
+ console.log("----ONLY STRINGS----");
+  for(let i = 0; i < benson.length ;i++){
+if(typeof benson[i] !== 'string')continue;// This implies that it should only log values which are string, if a value is not a string, ignore.
+console.log(benson[i], typeof benson[i]);
+  }

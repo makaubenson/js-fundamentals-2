@@ -96,3 +96,6 @@
 - `for(let rep = 1; rep <=10; rep++){
     console.log(`repetition ${rep}`);
 }`
+### Continue and break
+- Continue- used to exit current iteration and contrinue to the next one
+- break- used to completely terminate the whole loop
