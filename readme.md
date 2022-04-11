@@ -37,4 +37,5 @@
 
 #### Array Functions
 - PUSH METHOD- Adds elements to the end of an array. - `friends.push('Benson');`
+- Push method also returns length of an arrays
     
