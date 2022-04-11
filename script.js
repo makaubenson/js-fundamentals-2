@@ -247,3 +247,8 @@ console.log(benson);
 console.log(benson.lastName);// Getting the property `lastName`
 //Method 2: Using Bracket Notation
 console.log(benson['lastName']); //Getting the property `lastName`
+
+//Sample Expression
+const nameKey = 'Name';
+console.log(benson['first' + nameKey]);
+console.log(benson['last' + nameKey]);
