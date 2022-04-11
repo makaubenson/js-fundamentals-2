@@ -41,4 +41,7 @@
 - unshift() method- Adds elements to the start of an arrays
 - unshift() method also returns length of an array
 - pop() function returns the popped element
+- Returning the index of an array element
+- `const indexOfSteve = friends.indexOf('Stephen');`
+- `console.log(indexOfSteve);`
     

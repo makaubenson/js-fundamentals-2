@@ -161,3 +161,7 @@ console.log(popped);
 //Using shift() to remove first element of the array
 friends.shift();
 console.log(friends);
+
+//Returning the index of an array element
+const indexOfSteve = friends.indexOf('Stephen');
+console.log(indexOfSteve);
