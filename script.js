@@ -278,13 +278,19 @@ const benson = {
     // calcAge: function(birthYear){
     //     return 2037- birthYear;
     // }
+    // calcAge: function(birthYear){
+    //     console.log(this);// Logs the whole benson object
+    //     return 2037- this.birthYear;// Accessing birthYear property from the same object the method resides
+    // }
     calcAge: function(birthYear){
-        console.log(this);// Logs the whole benson object
-        return 2037- this.birthYear;// Accessing birthYear property from the same object the method resides
+       this.age = 2037- this.birthYear; // Creating new property in benson object
+        return this.age;
     }
 };
 // console.log(benson);
 // Any function attached to an object is called a Method. 
 // Functions are not declared inside object, instead expresions are used.
 console.log(benson.calcAge());
+console.log(benson.age);
+console.log(benson);
 // console.log(benson['calcAge'](1991));
