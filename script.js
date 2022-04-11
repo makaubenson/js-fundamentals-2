@@ -177,4 +177,9 @@ console.log(friends.includes('Stephen'));
 friends.push(23);
 //then check for the '23' string, it would get false
 console.log(friends.includes('23'));
-//
+//Using includes() in writing conditionals
+if(friends.includes('Michael')){
+    console.log('You have a friend named Michael');
+}else{
+    console.log("You have no friend named Michael");
+}
