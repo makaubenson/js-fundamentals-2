@@ -135,7 +135,7 @@ const age3 = calcAge(years[years.length - 1]);
 
 const ages =[calcAge(years[0]),calcAge(years[1]),calcAge(years[years.length-1])];
 // console.log(ages);
-*/
+
 //Basic Array Operations(METHODS)
 const friends = ['Michael', 'Stephen', 'Peter'];//literal syntax
 // Add Elements to the Arrays
@@ -183,3 +183,35 @@ if(friends.includes('Michael')){
 }else{
     console.log("You have no friend named Michael");
 }
+*/
+//Arrays Coding Challenge
+function calcTip(bill){
+    let tip = 0;
+if(bill<=50 && bill <= 300){
+    tip = (15/100) * bill;
+}else{
+    tip = (20/100)*bill;
+}
+return tip;
+}
+console.log(`The customer is supposed to leave a tip of ${calcTip(1000)}`);
+
+//Question 2
+const bills =[125,555,44];
+const tip1 = bills[0]*0.15;
+const tip2 = bills[1]*0.20;
+const tip3 = bills[2]*0.20;
+const tips =[];
+tips.push(tip1);
+tips.push(tip2);
+tips.push(tip3);
+console.log(`This is a list of tips ${tips}`);
+
+const total = [];
+const total1 = bills[0] + tip1;
+const total2 = bills[1] + tip2;
+const total3 = bills[2] + tip2;
+total.push(total1);
+total.push(total2);
+total.push(total3);
+console.log(`These are the totals ${total}`);
