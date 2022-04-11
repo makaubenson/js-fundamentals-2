@@ -75,3 +75,18 @@
 - `console.log(benson['first' + nameKey]);`
 - `console.log(benson['last' + nameKey]);`
     
+### Object Methods
+- `const benson = {
+    firstName: 'Benson',
+    lastName:'Makau',
+    birthYear: 1991,
+    job: 'teacher',
+    friends: ['Michael','Peter','Stephen'],
+    hasDriversLicense: true,
+    calcAge: function(birthYear){
+        return 2037- birthYear;
+    }
+ };`
+
+- Any function attached to an object is called a Method. 
+- Functions are not declared inside object, instead expresions are used.

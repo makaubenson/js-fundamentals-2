@@ -227,7 +227,7 @@ const bills =[125,555,44];
 const tips = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
 const totals = [bills[0]+tips[0],bills[1]+tips[1],bills[2]+tips[2]];
 console.log(bills, tips, totals);
-*/
+
 //Javascript Objects.
 const benson = {
     firstName: 'Benson',
@@ -266,3 +266,21 @@ benson['github'] = 'makaubenson';
 console.log(benson);
 
 console.log(`${benson.firstName} has ${benson.friends.length} friends and his best friend is ${benson.friends[0]}`);
+*/
+//Object Methods
+const benson = {
+    firstName: 'Benson',
+    lastName:'Makau',
+    birthYear: 1991,
+    job: 'teacher',
+    friends: ['Michael','Peter','Stephen'],
+    hasDriversLicense: true,
+    calcAge: function(birthYear){
+        return 2037- birthYear;
+    }
+};
+console.log(benson);
+// Any function attached to an object is called a Method. 
+// Functions are not declared inside object, instead expresions are used.
+console.log(benson.calcAge(1991));
+console.log(benson['calcAge'](1991));
