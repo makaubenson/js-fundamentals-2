@@ -381,9 +381,7 @@ const benson = [
 */
  //Continue and break
  //Continue- used to exit current iteration and contrinue to the next one
- //break- used to completely terminate the whole loop
-
- const types = [];
+  const types = [];
  const benson = [
      'Benson',
     'Makau',
@@ -397,3 +395,11 @@ const benson = [
 if(typeof benson[i] !== 'string')continue;// This implies that it should only log values which are string, if a value is not a string, ignore.
 console.log(benson[i], typeof benson[i]);
   }
+//break- used to completely terminate the whole loop
+console.log("----BREAK WITH NUMBER----");
+for(let i = 0; i < benson.length ;i++){
+if(typeof benson[i] === 'number')break;
+/* This loop goes until it finds a value of the array which is a number, 
+afterwards it stops looping through the array and prints all the values before the number was found.*/
+console.log(benson[i], typeof benson[i]);
+}
