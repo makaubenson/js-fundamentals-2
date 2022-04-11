@@ -444,7 +444,7 @@ while (dice !== 6) {
         //console.log("Loop is about to end!!!");
     }
 }
-
+*/
 //Coding Challenge
 //Method 1
 const bills = [22,295,176,440,37,105,10,1100,86,52];
@@ -470,31 +470,7 @@ console.log(`These are totals: ${totals}`);
 
 
 //find average for array totals[]
-let sum = 0;
-for(let i = 0; i <= totals.length - 1; i++){
-sum = sum + totals[i];
-}
-function calcAverage(){
-    return sum/ totals.length;
-}
-console.log(`The sum is: ${sum}`);
-console.log(`The average is: ${calcAverage()}`);
-*/
-//Method 2
-const calcTip = function (bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-  }
-  const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
-  const tips = [];
-  const totals = [];
-  
-  for (let i = 0; i < bills.length; i++) {
-    const tip = calcTip(bills[i]);
-    tips.push(tip);
-    totals.push(tip + bills[i]);
-  }
-  console.log(bills, tips, totals);
-  
+
   const calcAverage = function (arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -506,5 +482,32 @@ const calcTip = function (bill) {
   console.log(calcAverage([2, 3, 7]));
   console.log(`Average of totals is: ${calcAverage(totals)}`);
   console.log(`Average of tips is: ${calcAverage(tips)}`);
+
+//Method 2
+// const calcTip = function (bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+//   }
+//   const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+//   const tips = [];
+//   const totals = [];
+  
+//   for (let i = 0; i < bills.length; i++) {
+//     const tip = calcTip(bills[i]);
+//     tips.push(tip);
+//     totals.push(tip + bills[i]);
+//   }
+//   console.log(bills, tips, totals);
+  
+//   const calcAverage = function (arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//       // sum = sum + arr[i];
+//       sum += arr[i];
+//     }
+//     return sum / arr.length;
+//   }
+//   console.log(calcAverage([2, 3, 7]));
+//   console.log(`Average of totals is: ${calcAverage(totals)}`);
+//   console.log(`Average of tips is: ${calcAverage(tips)}`);
 
 
