@@ -215,7 +215,7 @@ total.push(total1);
 total.push(total2);
 total.push(total3);
 console.log(`These are the totals ${total}`);
-*/
+
 //Method 2
 const calcTip = function(bill){
     return bill >=50 && bill <= 300 ? bill = 0.15*bill : 0.20*bill;
@@ -227,3 +227,16 @@ const bills =[125,555,44];
 const tips = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
 const totals = [bills[0]+tips[0],bills[1]+tips[1],bills[2]+tips[2]];
 console.log(bills, tips, totals);
+*/
+//Javascript Objects.
+const benson = {
+    firstName: 'Benson',
+    lastName:'Makau',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael','Peter','Stephen']
+};
+//The Object above contains 5 keys with each key having a value.
+// A key is also called property.
+// This way of creating objects using curly brackets ({}) is known as the  object literal syntax
+// We use objects to group variables that are similaror related
