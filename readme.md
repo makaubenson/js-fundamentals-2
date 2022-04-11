@@ -70,4 +70,8 @@
 #### Method 2: Using Bracket Notation
 - `console.log(benson['lastName']);`- Getting the property `lastName`
 - Bracket notation allows writing of expressions. 
+#### Sample Expression
+- `const nameKey = 'Name';`
+- `console.log(benson['first' + nameKey]);`
+- `console.log(benson['last' + nameKey]);`
     
