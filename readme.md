@@ -34,4 +34,7 @@
 - Arrays can be mutable despite being declared with `const`
 - We can add arrays inside other arrays
 - We can add variable names inside arrays as if they were an array value.
+
+#### Array Functions
+- PUSH METHOD- Adds elements to the end of an array. - `friends.push('Benson');`
     

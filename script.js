@@ -95,7 +95,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 }
 console.log(yearsUntilRetirement(1991, "Benson"));
 console.log(yearsUntilRetirement(1950, "Richy"));
-*/
+
 // Arrays
 //Creating an Array Method 1
 const friends = ['Michael', 'Stephen', 'Peter'];//literal syntax
@@ -131,7 +131,13 @@ const years = [1990,1967,2002,2010,2018];
 const age1 = calcAge(years[0]);
 const age2 = calcAge(years[1]);
 const age3 = calcAge(years[years.length - 1]);
-console.log(age1, age2, age3);
+// console.log(age1, age2, age3);
 
 const ages =[calcAge(years[0]),calcAge(years[1]),calcAge(years[years.length-1])];
-console.log(ages);
+// console.log(ages);
+*/
+//Basic Array Operations(METHODS)
+const friends = ['Michael', 'Stephen', 'Peter'];//literal syntax
+//PUSH METHOD- Adds elements to the end of an array
+friends.push('Benson');
+console.log(friends);
