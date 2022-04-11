@@ -138,7 +138,26 @@ const ages =[calcAge(years[0]),calcAge(years[1]),calcAge(years[years.length-1])]
 */
 //Basic Array Operations(METHODS)
 const friends = ['Michael', 'Stephen', 'Peter'];//literal syntax
+// Add Elements to the Arrays
 //PUSH METHOD- Adds elements to the end of an array
 const newLength = friends.push('Benson');
 console.log(friends);
 console.log(newLength);// Returns Length of an arrays
+//unshift() method- Adds elements to the start of an arrays
+friends.unshift('John')
+console.log(friends);
+// const arrayStart = friends.unshift('John');
+// console.log(arrayStart);
+//unshift() method also returns length of an array
+
+// Removing elements from the array
+//Removing last element using pop();- Its the opposite of push
+const popped = friends.pop();//Popped Benson
+friends.pop();//Popped Peter
+console.log(friends);
+console.log(popped);
+// pop() function returns the popped element
+
+//Using shift() to remove first element of the array
+friends.shift();
+console.log(friends);

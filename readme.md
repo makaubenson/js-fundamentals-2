@@ -38,4 +38,7 @@
 #### Array Functions
 - PUSH METHOD- Adds elements to the end of an array. - `friends.push('Benson');`
 - Push method also returns length of an arrays
+- unshift() method- Adds elements to the start of an arrays
+- unshift() method also returns length of an array
+- pop() function returns the popped element
     
