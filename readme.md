@@ -99,3 +99,13 @@
 ### Continue and break
 - Continue- used to exit current iteration and contrinue to the next one
 - break- used to completely terminate the whole loop
+
+### While Loop
+- Needs condition to work as long as it stays true
+- `let rep = 1;
+while (rep <= 10) {
+    console.log(` Lifting weight repetition ${rep} 🤩`);
+    rep ++;
+}`
+- `Math.random()` - generates a random number betweeb 0 and 1
+- `Math.trunc(Math.random() * 6` will give a number between 1 and 5
